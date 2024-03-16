@@ -1,0 +1,347 @@
+body{
+    background-image:url(../images/shop-5.jpg);
+    background-position:40% 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+.v1 a
+{
+background-color:#22438c;
+}
+    
+ul .dropdown {
+    padding: 0px !important;
+}
+.v2 a
+{
+background-color: #22438c;
+    
+}
+.v3 a
+{
+background-color:#22438c;
+}
+.v4 a
+{
+background-color: #22438c;
+}
+
+.onorder{
+    list-style: none;
+        padding:0;
+        margin:5px 10px;
+
+        font-family: monospace;
+    }
+    
+    .onorder li{
+        display: inline-block;
+        position:relative;
+
+    }
+    .onorder li a{
+        text-align: center;
+        display:block;
+        padding:10px 20px;
+        color:white;
+        text-decoration: none;
+       
+        font-size: 20px;
+    }
+    .onorder li ul.dropdown li{
+        display: block;
+    }
+    .onorder li ul.dropdown {
+        width: 100%;
+    
+        background: #22438c;
+         position:absolute;
+         z-index: 999;
+        display:none;
+        
+    }
+    .onorder li a:hover {
+       
+        background: #112c66;
+    }
+    .onorder li:hover ul.dropdown {
+        display:block;
+    }
+    
+    .onorder li ul.drop li{
+        display: block;
+    }
+    .onorder li ul.drop {
+        width: 100%;
+        background: #22438c;
+         position:absolute; 
+        display:none;
+    }
+    .onorder li a:hover {
+        background: #112c66;
+    }
+    .onorder li:hover ul.drop {
+        display: block;
+    }
+    
+    
+    
+    .onorder li ul.drop li{
+        display: block;
+    }
+    .onorder li ul.drop {
+        width: 100%;
+        background: #22438c;
+         position:absolute; 
+        display:none;
+    }
+    .onorder li a:hover {
+        background: #112c66;
+    }
+    .onorder li:hover ul.drop {
+        display: block;
+    }
+
+
+    ul .dropdown {
+        margin-left: 0%;
+    }
+    ul .dropdown li a{
+        font-size: 15px !important;
+    }
+    
+
+    .usr
+{
+width: 40px;
+border-radius:25px;
+cursor: pointer;
+margin-right:200px;
+margin:0%;
+}
+.cart
+{
+width: 40px;
+border-radius:25px;
+cursor: pointer;
+margin-right:200px;
+margin: 0%;
+}
+.search
+{
+width: 40px;
+border-radius:25px;
+cursor: pointer;
+margin-right:200px;
+margin:0%;
+}
+.ur ul{
+    display: inline-block;
+        position:relative;
+
+}
+
+
+.drop{
+    list-style: none;
+        padding:0px 20px 0px 20px;
+        margin:15px 10px;
+}
+.drop li{
+    display: inline-block;
+        position:relative;
+}
+.drop li a{
+    text-align: center;
+    display:block;
+    padding:0px;
+    color:#fff;
+    text-decoration: none;
+   
+    font-size: 5px;
+}
+.drop li ul.do li{
+    display: block;
+}
+.drop li ul.do {
+    width: 100%;
+    background: #22438c;
+     position:absolute;
+     z-index: 999;
+    display:none;
+    
+}
+.drop li a:hover {
+       
+    background: #112c66;
+}
+.drop li:hover ul.do {
+    display:block;
+}
+.drop li ul.do li{
+    display: block;
+}
+.drop li ul.do {
+    width: 100%;
+    margin:0%;
+    padding:25px 20px;
+    background:transparent;
+    position:absolute; 
+    z-index: 999;
+    display:none;
+
+}
+.drop li a:hover {
+    background:blue;
+}
+.drop li:hover ul.do {
+    display: block;
+}
+ul .do {
+    width:100%;
+    margin:10%;
+    
+    
+}
+ul .do li a{
+    font-size: 15px !important;
+}
+
+
+ul{
+    list-style: none;
+    padding:0;
+    margin:0px 10px;
+
+        font-family:Calibri;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+       
+        display:block;
+        padding:10px 15px;
+        color:white;
+        text-decoration: none;
+       
+        font-size: 15px;
+        
+    }
+    ul li ul.cate li{
+        display: block;
+    }
+    ul li ul.cate {
+        width: 100%;
+         position:absolute;
+        Z-index:999; 
+        display:none;
+        
+    }
+    ul li a:hover {
+       
+    background:blue;
+    }
+    ul li:hover ul.cate {
+        display: block;
+    }
+    
+    nav .shopping-cart{
+        
+        border: 0px solid;
+        position: relative;
+        top:100%;
+        right: 250%;
+        padding: 0.5rem;
+    border-radius: .5rem;
+    box-shadow: var(--box shadow);
+    width:15rem;
+    background: #fff;
+    }
+    nav .shopping-cart .box{
+        border: 0px solid blue;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+       position: relative;
+       margin:0.5rem 0;
+    } 
+    nav .shopping-cart .box img{
+    height:2rem;
+    }
+    nav .shopping-cart .box .fa-trash{
+font-size: 1rem;
+position:absolute;
+top:50%;
+right:1rem;
+cursor: pointer;
+color:var(--light-color);
+transform: translateY(-50%);
+    }
+
+nav .shopping-cart .box .fa-trash:hover{
+    color:var(--green);
+}
+nav .shopping-cart .box .content h3{
+color:black;
+font-size: 1.2rem;
+padding-bottom: 1rem;
+}
+nav .shopping-cart .box .content span{
+    color:silver;
+    font-size: 1rem;
+}
+nav .shopping-cart .box .content .quantity{
+padding-left: 0.5rem;
+}
+nav .shopping-cart .total{
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    color:black;
+}
+nav .shopping-cart .btn{
+    border: 2px solid black;
+    margin-top: 1rem;
+    display:inline-block;
+    padding: .4rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color:black;
+    cursor: pointer;
+    
+}
+nav .shopping-cart .btn:hover{
+    background: green;
+    color: #fff;
+}
+nav .shopping-cart .btn{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+nav .search-form{
+    border:1px solid;
+    position: absolute;
+    max-width: 50rem;
+    height:4rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    
+    box-shadow:var(--bax-shadow);
+}
+nav .search-form input{
+    
+    background: none;
+    padding:0 1rem;
+    text-transform: none;
+    font-size:1rem;
+color:black;
+}
